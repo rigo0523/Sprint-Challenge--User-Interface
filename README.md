@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+ANSWER: I would say it's a much better way of reading your code. Instead of using divs for every container within a container we can use section, articles, footers, navs, headers, etc.. so that the code is more semantic and readable on search engines as well.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+ANSWER: Display block places the object (div, p, etc.) on one row (x-axis) while inline blends in along with the block therefore not creating another row. For example, the span element is an inline element that can be used inside a 'p' element without creating a separate row (correct me if I didn't know how to explain it well please).
 
 3. What are the 4 areas of the box model?
 
+ANSWER: Content > border > padding > margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+ANSWER: Y-Axis - align-items and align-contents are fitted into the Y-axis vertically.
+
 5. Explain why git is valuable to a team of developers.
+
+ANSWER: it's valuable because it helps you collaborate and contribute to an existing project. For example, i can fork a website, add my own section, commit, push it to a branch of the master project and the owner of the master project can marge it to update the contents of the website. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
